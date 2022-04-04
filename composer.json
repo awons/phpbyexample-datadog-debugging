@@ -1,0 +1,20 @@
+{
+    "name": "awons/phpbyexample-datadog-debugging",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PhpByExample\\DatadogDebugging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksander Wons",
+            "email": "hello@aleksanderwons.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "datadog/dd-trace": "0.71.0",
+        "opentracing/opentracing": "^1.0.2"
+    }
+}
